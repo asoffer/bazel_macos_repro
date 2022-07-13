@@ -17,7 +17,7 @@ def _impl(ctx):
         host_system_name = "host",
         target_system_name = "target",
         target_cpu = "darwin_arm64",
-        target_libc = "unknown",
+        target_libc = "macosx",
         compiler = "clang",
         abi_version = "unknown",
         abi_libc_version = "unknown",
